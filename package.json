@@ -1,0 +1,22 @@
+{
+  "author": "Robert Ferney <capnregex@gmail.com>",
+  "name": "sample_node_module",
+  "description": "A sample node module",
+  "version": "0.0.0",
+  "homepage": "https://github.com/capnregex/sample_node_module",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/capnregex/sample_node_module.git"
+  },
+  "main": "./index",
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines": {
+    "node": "~0.6.6"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
